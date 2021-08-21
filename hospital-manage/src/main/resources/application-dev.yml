@@ -14,11 +14,11 @@ spring:
     #配置模板路径，默认是templates，可以不用配置
     prefix: classpath:/templates/
   redis:
-    host: 47.102.20.177
-    port: 9979
+    host:
+    port:
     database: 0
     timeout: 1800000
-    password: 9087a3bj11rbhuA95K
+    password:
     lettuce:
       pool:
         max-active: 20 #最大连接数
@@ -30,7 +30,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/yygh_manage?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: 159357000
+    password:
     hikari:
       connection-test-query: SELECT 1
       connection-timeout: 60000

@@ -15,7 +15,7 @@ import java.util.List;
 @Api(tags = "数据字典管理")
 @RestController
 @RequestMapping("/admin/cmn/dict")
-@CrossOrigin
+//@CrossOrigin
 public class CmnController {
 
     @Autowired

@@ -1,6 +1,6 @@
 package com.carrot.yygh.vo.order;
 
-import com.carrot.yygh.vo.msm.MsmVo;
+import com.carrot.yygh.vo.email.EmailVo;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -18,8 +18,8 @@ public class OrderMqVo {
 	@ApiModelProperty(value = "排班id")
 	private String scheduleId;
 
-	@ApiModelProperty(value = "短信实体")
-	private MsmVo msmVo;
+	@ApiModelProperty(value = "邮件实体")
+	private EmailVo emailVo;
 
 }
 
