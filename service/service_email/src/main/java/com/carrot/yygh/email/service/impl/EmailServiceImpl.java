@@ -67,7 +67,7 @@ public class EmailServiceImpl implements EmailService {
 
             e.setFrom("2080530488@qq.com", "统一预约挂号平台");
 
-            e.setAuthentication("2080530488@qq.com", "hldtrozryhgceche");
+            e.setAuthentication("2080530488@qq.com", "");
 
             e.setSubject("统一预约挂号平台"); // 此处填写邮件名
             e.setMsg("尊敬的" + name + "，恭喜您预约成功，您本次的就诊时间为：" +
